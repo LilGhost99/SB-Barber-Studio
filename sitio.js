@@ -123,7 +123,7 @@ function ahoraPachuca() {
 let agendaVivo = null;
 function semana() {
   const h = NEGOCIO.horario;
-  const base = [0, 1, 2, 3, 4, 5, 6].map((d) => ({ abierto: h.dias.includes(d), abre: h.abre, cierra: h.cierra }));
+  const base = [0, 1, 2, 3, 4, 5, 6].map((d) => ({ abierto: h.dias.includes(d), abre: h.porDia?.[d]?.abre || h.abre, cierra: h.porDia?.[d]?.cierra || h.cierra }));
   const s = agendaVivo && Array.isArray(agendaVivo.semana) && agendaVivo.semana.length === 7 ? agendaVivo.semana : null;
   return s ? s.map((x, i) => ({ abierto: !!x.abierto, abre: x.abre || base[i].abre, cierra: x.cierra || base[i].cierra })) : base;
 }

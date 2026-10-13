@@ -1,7 +1,7 @@
 {
-  "name": "Traffic Barber · Mi tarjeta",
-  "short_name": "Traffic Barber",
-  "description": "Tu tarjeta de cliente frecuente de Traffic Barber.",
+  "name": "SB Barber Studio · Mi tarjeta",
+  "short_name": "SB Barber Studio",
+  "description": "Tu tarjeta de cliente frecuente de SB Barber Studio.",
   "display": "standalone",
   "background_color": "#050505",
   "theme_color": "#050505",

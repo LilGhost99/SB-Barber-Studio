@@ -61,7 +61,7 @@ const aHH = (min) => `${String(Math.floor(min / 60)).padStart(2, "0")}:${String(
 
 export function semanaBase(NEGOCIO) {
   const h = NEGOCIO.horario;
-  return [0, 1, 2, 3, 4, 5, 6].map((d) => ({ abierto: h.dias.includes(d), abre: h.abre, cierra: h.cierra }));
+  return [0, 1, 2, 3, 4, 5, 6].map((d) => ({ abierto: h.dias.includes(d), abre: h.porDia?.[d]?.abre || h.abre, cierra: h.porDia?.[d]?.cierra || h.cierra }));
 }
 
 export function agendaLimpia(agenda, NEGOCIO) {

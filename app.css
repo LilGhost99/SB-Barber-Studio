@@ -189,7 +189,7 @@ a.promo-link:hover{border-color:var(--gold);color:var(--text);translate:0 -2px}
 .dia-chk input:focus-visible+span{outline:2px solid var(--gold);outline-offset:2px}
 .desc-box .fila{grid-template-columns:1.5fr 1fr}
 
-/* ===================== Estilo Traffic (negro + verde neón) ===================== */
+/* ===================== Estilo negro + acento de marca ===================== */
 body{background:#050505}
 .script{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-style:italic;text-transform:uppercase;color:var(--gold)}
 h1 .script{font-size:1em;line-height:.92}
