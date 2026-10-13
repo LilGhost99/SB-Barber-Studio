@@ -5,12 +5,13 @@
 
 // 1) Configuración del proyecto de Firebase (no la cambies)
 export const firebaseConfig = {
-  apiKey: "PEGA_AQUI",
-  authDomain: "PEGA_AQUI",
-  projectId: "PEGA_AQUI",
-  storageBucket: "PEGA_AQUI",
-  messagingSenderId: "PEGA_AQUI",
-  appId: "PEGA_AQUI"
+  apiKey: "AIzaSyBfw-OwcXgDi1ynVo5UO_Ua1_eDO_NTgX4",
+  authDomain: "sb-barber-studio.firebaseapp.com",
+  projectId: "sb-barber-studio",
+  storageBucket: "sb-barber-studio.firebasestorage.app",
+  messagingSenderId: "550998337634",
+  appId: "1:550998337634:web:7099f3ba40171a5793493b",
+  measurementId: "G-4EMQ2NHK9Z"
 };
 
 // 2) Datos del negocio
